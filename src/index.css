@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.App {
+    width: 600px;
+    height: 800px;
+
+    background-color: aliceblue;
+
+    margin: 0px auto;
+    padding: 1rem;
+}
+
+.App > h1 {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+    border-bottom: 3px solid black;
+}
+
+.App form div{
+
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.test {
+    text-align: end;
+    padding-right: 1rem;
+}
